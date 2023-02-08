@@ -1,0 +1,96 @@
+nav {
+  background-color: #4d4e7e;
+  color: #fff;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftside {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.brand {
+  margin-left: 0.5rem;
+}
+.brand p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.brand small {
+  color: rgb(192, 190, 190);
+}
+.firm-names {
+  display: flex;
+  align-items: center;
+  color: rgb(192, 190, 190);
+}
+.firm {
+  background-color: #474673;
+  padding: 0.8rem 1.5rem;
+}
+.firm-name {
+  background-color: #3d3d63;
+  padding: 0.8rem 1.5rem;
+}
+.rightside {
+  display: flex;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.icon {
+  cursor: pointer;
+}
+
+.icon img {
+  width: 25px;
+  height: 25px;
+}
+.notification {
+  position: relative;
+}
+.green-light {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1rem;
+  height: 1rem;
+  background-color: #209620;
+  border-radius: 50%;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 4rem;
+}
+.user-info {
+  text-align: right;
+}
+.user-name {
+  font-weight: bold;
+}
+.user-email {
+  font-size: 0.8rem;
+}
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+}

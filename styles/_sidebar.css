@@ -1,0 +1,83 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 240px;
+  width: 100%;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 1px -1px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.user-img {
+  padding-top: 3rem;
+}
+.user-img img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.personal-info p {
+  color: rgb(175, 170, 170);
+  text-align: center;
+}
+.personal-info h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+.buttons {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.single-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5rem;
+  background-color: #f9f9f9;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.single-button img {
+  width: 20px;
+  height: 20px;
+}
+
+/* login info */
+.login-info {
+  text-align: center;
+  color: rgb(144, 140, 140);
+  background-color: #fff;
+  box-shadow: 1px -1px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  padding: 1.5rem 0;
+}
+.success-login {
+  padding-bottom: 0.5rem;
+}
+.info-head {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  color: rgb(80, 77, 77);
+}
+.company-info {
+  background-color: #4d4e7e;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  line-height: 1.2;
+}
+.company-info h4 {
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,29 @@
+@import "./_navbar.css";
+@import "./_navbar.css";
+@import "./_sidebar.css";
+@import "./_main.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  background-image: url("../assets/background.png");
+  background-repeat: no-repeat;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.main-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}

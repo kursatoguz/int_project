@@ -1,0 +1,91 @@
+.main {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.warning-info {
+  background-color: #4d4e7e;
+  font-size: 0.9rem;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  line-height: 1.2;
+}
+/* cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: #fff;
+  height: 300px;
+  perspective: 800px;
+  border-radius: 0.5rem;
+  box-shadow: 1px -1px 10px 5px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.card:hover {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+.card-img {
+  text-align: center;
+  color: #4d4e7e;
+}
+.card-img h1 {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+.card-img img {
+  width: 100px;
+  height: 100px;
+}
+.purple {
+  color: #4d4e7e;
+}
+.front {
+  position: absolute;
+  backface-visibility: hidden !important;
+}
+.back {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3a3a;
+  color: white;
+  height: 300px;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.back h4 {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.shop {
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 0;
+  text-align: center;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  backface-visibility: hidden;
+}
+.shop img {
+  width: 30px;
+  height: 30px;
+}
